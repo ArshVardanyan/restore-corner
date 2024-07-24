@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Document</title><link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/anim.css">
+</head>
+<body>
+    <nav>
+        <div class="container flexnav">
+            <div><h2>ZENTRO</h2></div>
+            <div>
+            <ul class="flexul">
+                <li><a data-translate="home" href="#">HOME</a></li>
+                <li><a onclick="scrollToPosition(750); return false;" data-translate="foodGallery" href="#">FOOD GALLERY</a></li>
+                <li><a onclick="scrollToPosition(1400); return false;" data-translate="specialMenu" href="#">SPECIAL MENU</a></li>
+                <li><a onclick="scrollToPosition(2100); return false;" data-translate="chefs" href="#">CHEFS</a></li>
+                <li><a onclick="scrollToPosition(2400); return false;" data-translate="contact" href="#">CONTACT</a></li>
+            </ul>
+            </div>
+            <div class="leng">
+                <ul>
+                    <li><a data-translate="larm" href="#">ARM</a></li>
+                    <li><a data-translate="lru"  href="#">RU</a></li>
+                    <li><a data-translate="len"  href="#">ENG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="foodinfosect">
+        <div class="foodinfo foodinfo1">
+            <img src="./nkar/gallery-img1.jpg"alt="">
+            <h2 data-translate="l_rp">Lemon-Rosemary Prawn</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, atque. Adipisci quam sit placeat fugit, possimus magnam. Veritatis similique, illum tempora aperiam harum cumque vel.</p>
+            <div class="clossi"><i onclick="foodinfo1()" class="bi bi-x-circle"></i></div>
+        </div> 
+        <div class="foodinfo foodinfo2">
+            <img src="./nkar/gallery-img2.jpg"alt="">
+            <h2 data-translate="l_rv">Lemon-Rosemary Vegetables</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, atque. Adipisci quam sit placeat fugit, possimus magnam. Veritatis similique, illum tempora aperiam harum cumque vel.</p>
+            <div class="clossi"><i onclick="foodinfo2()" class="bi bi-x-circle"></i></div>
+        </div> 
+        <div class="foodinfo foodinfo3">
+            <img src="./nkar/gallery-img3.jpg"alt="">
+            <h2 data-translate="l_rb">Lemon-Rosemary Bakery</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, atque. Adipisci quam sit placeat fugit, possimus magnam. Veritatis similique, illum tempora aperiam harum cumque vel.</p>
+            <div class="clossi"><i onclick="foodinfo3()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="foodinfo foodinfo4">
+            <img src="./nkar/gallery-img4.jpg"alt="">
+            <h2 data-translate="l_rs">Lemon-Rosemary Salad</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, atque. Adipisci quam sit placeat fugit, possimus magnam. Veritatis similique, illum tempora aperiam harum cumque vel.</p>
+            <div class="clossi"><i onclick="foodinfo4()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="foodinfo foodinfo5">
+            <img src="./nkar/gallery-img5.jpg"alt="">
+            <h2 data-translate="l_rpiz">Lemon-Rosemary Pizza</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, atque. Adipisci quam sit placeat fugit, possimus magnam. Veritatis similique, illum tempora aperiam harum cumque vel.</p>
+            <div class="clossi"><i onclick="foodinfo5()" class="bi bi-x-circle"></i></div>
+        </div>
+
+        <!-- ///////////////////////////// -->
+        <div class="menuinfo menuinfo1">
+            <h3 data-translate="sm1">Lemon-Rosemary Vegetable............ $20.50</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo1()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo2">
+            <h3 data-translate="sm2">Lemon-Rosemary Pork................. $40.75</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo2()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo3">
+            <h3 data-translate="sm3">Lemon-Rosemary Squit................ $65.00</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo3()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo4">
+            <h3 data-translate="sm4">Lemon-Rosemary Prawn............... $110.75</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo4()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo5">
+            <h3 data-translate="sm5">Lemon-Rosemary Meat................ $30.50</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo5()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo6">
+            <h3 data-translate="sm6">Lemon-Rosemary Salad............... $55.00</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo6()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo7">
+            <h3 data-translate="sm7">Lemon-Rosemary Shrimp.............. $70.50</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo7()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="menuinfo menuinfo8">
+            <h3 data-translate="sm8">Lemon-Rosemary Seafood............ $220.50</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veritatis impedit odit. Voluptate ab rem ad corporis doloremque, commodi fugiat obcaecati culpa in aspernatur atque!</p>
+            <div class="clossi"><i onclick="menuinfo8()" class="bi bi-x-circle"></i></div>
+        </div>
+        <!-- ///////////////////////////////////////// -->
+        <div class="chefinfo chefinfo1">
+            <img src="./nkar/team1.jpg" alt=""><h3 data-translate="th">Thanya Jonson</h3><p data-translate="mc">Main Chef</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, provident.</p>
+            <div class="clossi"><i onclick="chefinfo1()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="chefinfo chefinfo2">
+            <img src="./nkar/team2.jpg" alt=""> <h3 data-translate="ly">Lynda Harmat</h3> <p data-translate="ps">Pizza Specialist</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, provident.</p>
+            <div class="clossi"><i onclick="chefinfo2()" class="bi bi-x-circle"></i></div>
+        </div>
+        <div class="chefinfo chefinfo3">
+            <img src="./nkar/team3.jpg" alt=""> <h3 data-translate="je">Jenny Qlinton</h3> <p data-translate="nb">New Baker</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, provident.</p>
+            <div class="clossi"><i onclick="chefinfo3()" class="bi bi-x-circle"></i></div>
+        </div>
+    </section>
+    <header>
+        <div class="animnav">
+            <ul class="anim_ul">
+                <li><a onclick="scrollToPosition(0); return false;" data-translate="home" href="#">HOME</a></li>
+                <li><a onclick="scrollToPosition(750); return false;" data-translate="foodGallery" href="#">FOOD GALLERY</a></li>
+                <li><a onclick="scrollToPosition(1400); return false;" data-translate="specialMenu" href="#">SPECIAL MENU</a></li>
+                <li><a onclick="scrollToPosition(2100); return false;" data-translate="chefs" href="#">CHEFS</a></li>
+                <li><a onclick="scrollToPosition(2400); return false;" data-translate="contact" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="container flaxhea">
+            <div class="head">
+            <div class="head1"> 
+                <h1 data-translate="zr" class="anim_h1 anim_items">ZENTRO RESTAURANT</h1>
+                <h2 data-translate="csd" class="anim_h2 anim_items">CLEAN & SIMPLE DESIGN</h2>
+            </div>
+                <div class=" head2 anim_a anim_items">
+                    <a onclick="animinfo()" data-translate="lm" href="#">LEARN MORE</a>
+                </div>
+                <div class="zentinfo animinfo">
+                    <h2 data-translate="zr">ZENTRO RESTAURANT</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, tenetur dolores! Laborum ipsam omnis numquam nobis ipsum itaque dolorum ut totam atque delectus eaque quod aperiam animi sunt consectetur facilis sed aliquid fugit unde exercitationem, dolorem iste! Sit dolore cumque nulla architecto repellendus reprehenderit nam labore perferendis harum, unde ex corporis eos quaerat ratione veniam!</p>
+                    <div><a onclick="animinfo()"  href="#" class="closs_a"><i class="bi bi-x-circle"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>  
+        <div class="container flexmenuimg">
+            <div class="mimg foodimg anim_items anim_fd1">   
+                <div> 
+                    <img src="./nkar/gallery-img1.jpg"  onclick="foodinfo1()" alt="">
+                    <h2 data-translate="l_rp">Lemon-Rosemary Prawn</h2>
+                    <p data-translate="ssl">Seafood/Shrimp/Lemon</p>
+                </div>
+                <div>
+                    <img src="./nkar/gallery-img2.jpg" alt="" onclick="foodinfo2()">
+                    <h2 data-translate="l_rv">Lemon-Rosemary Vegetables</h2>
+                    <p data-translate="trl">Tomato / Rosemary / Lemon</p>
+                </div>
+            </div>
+            <div class="mimg foodimg flexfood anim_items anim_fd2">
+                <div class="anim_items anim_fd_h3">
+                    <h3 data-translate="foodGallery">Food Gallery</h3>
+                </div>
+                 <div><img src="./nkar/gallery-img3.jpg" alt="" onclick="foodinfo3()">
+                <h2 data-translate="l_rb">Lemon-Rosemary Bakery</h2>
+                <p data-translate="bro">Bread / Rosemary / Orange</p></div>
+            </div>
+            <div class="mimg foodimg anim_items anim_fd3 ">
+                <div>
+                    <img src="./nkar/gallery-img4.jpg" alt="" onclick="foodinfo4()">
+                    <h2 data-translate="l_rs">Lemon-Rosemary Salad</h2>
+                    <p data-translate="crg">Chicken / Rosemary / Green</p>
+                </div>
+                <div>
+                    <img src="./nkar/gallery-img5.jpg" alt="" onclick="foodinfo5()">
+                    <h2 data-translate="l_rpiz">Lemon-Rosemary Pizza</h2>
+                    <p data-translate="prg">Pasta / Rosemary / Green</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+       <div class="container flexsect2">
+        <div class="flexsect2-1">
+            <h2 data-translate="specialMenu" class="anim_menu_h2 anim_items">Spechial Menu</h2>
+        </div>
+        <div class="flexsect2-2">
+            <div class="sectright  anim_items">
+                <div class="anim_items anim_menu_h3_1 menuscale" onclick="menuinfo1()">
+                    <h3 data-translate="sm1">Lemon-Rosemary Vegetable............ $20.50</h3>
+                    <p data-translate="sp1">Chicken/Rosemary/Lemon</p>
+                </div>
+                <div class="anim_items anim_menu_h3_2 menuscale" onclick="menuinfo2()">
+                    <h3 data-translate="sm2">Lemon-Rosemary Pork................. $40.75</h3>
+                    <p data-translate="sp2">Pork/Tooplate/Lemon</p>
+                </div >
+                <div class="anim_items anim_menu_h3_3 menuscale" onclick="menuinfo3()">
+                    <h3 data-translate="sm3">Lemon-Rosemary Squit................ $65.00</h3>
+                    <p data-translate="sp3">Rosemary/Lemon</p>
+                </div>
+                <div class="anim_items anim_menu_h3_4 menuscale" onclick="menuinfo4()">
+                    <h3 data-translate="sm4">Lemon-Rosemary Prawn............... $110.75</h3>
+                    <p data-translate="sp4">Rosemary/Lemon</p>
+                </div>
+            </div>
+            <div class="sectright">
+                <div class="anim_items anim_menu_h3_5 menuscale" onclick="menuinfo5()">
+                    <h3 data-translate="sm5">Lemon-Rosemary Meat................ $30.50</h3>
+                    <p data-translate="sp5">Rosemary/Lemon</p>
+                </div>
+                <div class="anim_items anim_menu_h3_6 menuscale" onclick="menuinfo6()">
+                    <h3 data-translate="sm6">Lemon-Rosemary Salad............... $55.00</h3>
+                    <p data-translate="sp6">Rosemary/Lemon</p>
+                </div>
+                <div class="anim_items anim_menu_h3_7 menuscale" onclick="menuinfo7()">
+                    <h3 data-translate="sm7">Lemon-Rosemary Shrimp.............. $70.50</h3>
+                    <p data-translate="sp7">Rosemary/Lemon</p>
+                </div>
+                <div class="anim_items anim_menu_h3_8 menuscale" onclick="menuinfo8()">
+                    <h3 data-translate="sm8">Lemon-Rosemary Seafood............ $220.50</h3>
+                    <p data-translate="sp8">Rosemary/Lemon</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="container flexshef">
+            <div class="shef1 "><h2 data-translate="mzchefs" class="animshef anim_items">Meet Zentro Chefs</h2></div>
+            <div class="shef2">
+                <div class="anim_items animshef1"> <img src="./nkar/team1.jpg" alt="" class="chefscsle" onclick="chefinfo1()"><h3 data-translate="th">Thanya</h3><p data-translate="mc">Main Chef</p></div>
+                <div class="anim_items animshef2"> <img src="./nkar/team2.jpg" alt="" class="chefscsle" onclick="chefinfo2()"> <h3 data-translate="ly">Lynda</h3> <p data-translate="ps">Pizza Specialist</p></div>
+                <div class="anim_items animshef3"> <img src="./nkar/team3.jpg" alt="" class="chefscsle" onclick="chefinfo3()"> <h3 data-translate="je">Jenny</h3> <p data-translate="nb">New Baker</p></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="foot">
+            <div class="foot1">
+                 <p data-translate="tel" class="anim_p1 anim_items">Tel․ +123456789</p>
+                 <p data-translate="adr" class="anim_p2 anim_items">Is our address:  Hyusisayin Poxota 3 Yerevan, Armenia</p>
+            </div>
+            <div class="foot2">
+                <ul>
+                    <li class="anim_li1 anim_items"><a href=""><img src="./icon/facebook.png" alt=""></a></li>
+                    <li class="anim_li2 anim_items"><a href=""><img src="./icon/twitter.png" alt=""></a></li>
+                    <li class="anim_li3 anim_items"><a href=""><img src="./icon/linkedin.png" alt=""></a></li>
+                    <li class="anim_li4 anim_items"><a href=""><img src="./icon/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="bi bi-arrow-up-circle-fill"></i></button>
+<script src="JS/leng.js"></script>    
+<script src="JS/script.js"></script>
+<script src="JS/info.js"></script>
+</body>
+</html>

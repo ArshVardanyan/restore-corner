@@ -1,0 +1,531 @@
+img{
+    z-index: 0!important;
+}
+body{
+    z-index: 0!important;
+}
+.anim_h1{
+    transform: translate(0px, -120%);
+    opacity: 0;
+}
+.anim_h1.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: 1s;
+}
+.anim_h2{
+    transform: translate(0px, 120%);
+    opacity: 0;
+}
+.anim_h2.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: 1s;
+}
+
+.anim_a{
+    transform: translate(0px, 150%);
+    opacity: 0;
+}
+.anim_a.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: 2s;
+}
+/* \\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* anim food gallery */
+
+.anim_fd1{
+    transform:translate(-50%);
+    opacity: 0;
+}
+.anim_fd1.active{
+    transform: translate(0px);
+    opacity: 1;
+    transition: 2s;
+}
+
+.anim_fd2{
+    transform:translate(0px, 60px);
+    opacity: 0;
+}
+.anim_fd2.active{
+    transform: translate(0px);
+    opacity: 1;
+    transition: 1.5s;
+}
+.anim_fd3{
+    transform:translate(50%);
+    opacity: 0;
+}
+.anim_fd3.active{
+    transform: translate(0px);
+    opacity: 1;
+    transition: 2s;
+}
+
+.anim_fd_h3{
+    transform:translate(0px, 50%);
+    opacity: 0;
+}
+.anim_fd_h3.active{
+    transform: translate(0px);
+    opacity: 1;
+    transition: 1s;
+}
+/* //////////////////// */
+.animnav{
+    top: 160px;
+    width: 120px;
+    background-color: rgba(135, 133, 133, 0.879);
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    padding: 20px;
+    transform: translate(-100px);
+    opacity: 0;
+    transition: 1s;
+}
+.animnav.active2{
+    transition: 1s;
+    transform: translate(0);
+    opacity: 1;
+}
+
+.animnav li{
+    transition: 0.5s !important;
+}
+
+.animnav li:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.anim_ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    list-style: none;
+}
+.anim_ul li a {
+    text-decoration: none;
+    color: white;
+    transform: translate(0, 50%);
+    transition: 0.7s;
+
+}
+
+.anim_ul li a:hover{
+    color: black;
+    transition: 0.7s;
+}
+/* //////////////////// */
+.anim_menu_h2{
+    transform: translate( 0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h2.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 1s;
+}
+
+.anim_menu_h3_1{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_1.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.anim_menu_h3_2{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_2.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 2.5s;
+}
+
+.anim_menu_h3_3{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_3.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 3s;
+}
+
+.anim_menu_h3_4{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_4.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 3.5s;
+}
+
+.anim_menu_h3_5{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_5.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 4s;
+}
+
+.anim_menu_h3_6{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_6.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 4.5s;
+}
+
+.anim_menu_h3_7{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_7.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 5s;
+}
+.anim_menu_h3_8{
+    transform: translate(0, 100px);
+    opacity: 0;
+}
+
+.anim_menu_h3_8.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 5.5s;
+}
+
+
+.animshef{
+    transform: translate(0, 200px);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.animshef.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 1s;
+}
+
+.animshef1{
+    transform: translate(0, 200px);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.animshef1.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 2s;
+}
+.animshef2{
+    transform: translate(0, 200px);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.animshef2.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 3s;
+}
+.animshef3{
+    transform: translate(0, 200px);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.animshef3.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 4s;
+}
+
+.anim_p1{
+    transform: translate(-250px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.anim_p1.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 1s;
+}
+.anim_p2{
+    transform: translate(150px);
+    opacity: 0;
+}
+
+.anim_p2.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 1s;
+}
+
+.anim_li1{
+    transform: translate(0, 50px);
+    opacity: 0;
+    transition: 1s;
+}
+.anim_li1.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 1s;
+}
+
+.anim_li2{
+    transform: translate(0, 60px);
+    opacity: 0;
+    transition: 1s;
+}
+.anim_li2.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.anim_li3{
+    transform: translate(0, 50px);
+    opacity: 0;
+    transition: 1s;
+}
+.anim_li3.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 3s;
+}
+
+.anim_li4{
+    transform: translate(0, 50px);
+    opacity: 0;
+    transition: 1s;
+}
+.anim_li4.active{
+    transform: translate(0);
+    opacity: 1;
+    transition: 4s;
+}
+
+#scrollBtn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 48px;
+    transition: 1s;
+    cursor: pointer;
+    border: 1px; 
+    color: rgba(118, 147, 153, 0.771);
+    background-color: rgba(240, 248, 255, 0);
+    transition: 1s;
+    transform: translate(200%);
+    opacity: 0;
+}
+#scrollBtn.active3{
+    transition: 1s;
+    transform: translate(0);
+    opacity: 1; 
+}
+
+#scrollBtn:hover{
+    color: rgba(133, 133, 84, 0.874);
+    transform: translateY(-20%);
+}
+ /* /////////////////////////////////// */
+.zentinfo{
+    width: 600px;
+    top: 100px;
+    border: 4px solid gray;
+    padding: 50px 20px 20px 50px;
+    /* text-align: center; */
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    z-index: 999;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.7s ease-out;
+    z-index: 999;
+    background-image: url(../nkar/zentro.jpg) ;
+    background-position: 100%;
+    background-size: cover;
+ 
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.closs_a{
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    transition: 0.7s;
+}
+.closs_a:hover{
+    color: red;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+/* /////////////////////////////////////////////////// */
+
+.foodinfosect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ////////////////////////////////////////////// */
+.foodinfo{
+    width: 600px;
+    border: 4px solid gray;
+    padding: 50px 200px 20px 200px;
+    background-color: rgba(255, 255, 255, 0.936);
+    color:black;
+    border-radius: 25px;
+    z-index: 999;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideIn 0.7s ease-out;
+}
+
+.foodinfo img{
+    width: 300px;
+}
+.foodinfo .clossi{
+    text-decoration: none;
+    font-size: 36px;
+    color: black; 
+    transition: 0.7s;
+}
+.foodinfo .clossi:hover{
+    color: red;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+.foodinfo3 img{
+    height: 200px !important;
+}
+
+.menuinfo{
+    width: 600px;
+    border: 4px solid gray;
+    padding: 50px 200px 20px 200px;
+    background-color: rgba(255, 255, 255, 0.936);
+    color:black;
+    border-radius: 25px;
+    z-index: 999;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideIn 0.7s ease-out;
+}
+.menuinfo .clossi{
+    text-decoration: none;
+    font-size: 36px !important;
+    color: black; 
+    transition: 0.7s;
+}
+.menuinfo .clossi:hover{
+    color: red;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+.menuscale{
+    transition: 0.7s !important;
+    cursor:pointer ;
+}
+
+.menuscale:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
+
+/* /////////////////////////// */
+
+.chefinfo{
+    width: 600px;
+    border: 4px solid gray;
+    padding: 50px 200px 20px 200px;
+    background-color: rgba(255, 255, 255, 0.936);
+    color:black;
+    border-radius: 25px;
+    z-index: 999;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideIn 0.7s ease-out; 
+}
+
+.chefinfo .clossi{
+    text-decoration: none;
+    font-size: 36px;
+    color: black; 
+    transition: 0.7s;
+}
+.chefinfo .clossi:hover{
+    color: red;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+.chefscsle{
+    transition: 0.5s;
+    cursor:pointer ;
+}
+
+.chefscsle:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
